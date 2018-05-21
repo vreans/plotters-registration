@@ -1,0 +1,31 @@
+<div class="flipWrapper container-fluid">
+    <div class="cards row">
+        <div id="side-1" style="text-align: center" class="face front flip col-md-4 offset-md-4">
+            <img style="height: 100%" src="assets/img/img.svg">
+            <button style="       position: absolute;
+                bottom: 0;
+                right: 0;
+                font-size: 30px;
+                padding: 10px;
+                margin-bottom: 100px;
+                margin-right: 80px;
+                font-family: exo;
+                background-color: #6a3faf;" mat-raised-button (click)="flipCard()" color="primary">Click to Register</button>
+        </div>
+        <div id="side-2" style="text-align: center" class="face back col-md-4 offset-md-4">
+            <img style="height: 100%" src="assets/img/img2.svg">
+            <div>
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Favorite food" value="Sushi">
+                        </mat-form-field>
+        
+                        <mat-form-field class="example-full-width">
+                            <textarea matInput placeholder="Leave a comment"></textarea>
+                        </mat-form-field>
+                    </form>
+                </div>
+        </div>
+        
+    </div>
+</div>
